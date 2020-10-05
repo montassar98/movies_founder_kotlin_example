@@ -24,6 +24,7 @@ class SearchActivity : AppCompatActivity(), SearchContract.ViewInterface, Search
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_search)
         setupPresenter()
+        setupPresenter()
         val intent = intent
         query = intent.getStringExtra(QUERY_TITLE).toString()
     }
